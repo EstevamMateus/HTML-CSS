@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospeadados localmente.</h1>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <video src="media/video1.mp4" width="500" controls></video>
+    <video src="media/video2.mp4" width="300" controls></video>
+    <!--OBS: Converter em MP4, MKV, WEBM e OGV, adiconar todos od aqruivos pois cada navegador roda o arquivo compativel, quanto maior a variedade de arquivos de video, maior a compatibilidade com diversos navegadores-->
+    <video width="500" poster="imagens/foto-m.png" controls autoplay loop>
+        <source src="media/video1.mp4" type="video/mp4">
+        <!--source src="media/video1.mkv" type="video/mkv">
+        <source src="media/video1.webm" type="video/webm">
+        <source src="media/video1.ogv" type="video/ogv"-->
+        <p>Seu navegador não tem compartibilidade com reprodução de videos.</p>
+    </video>
+
+    <h1>Inserindo videos do YouTube.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4emDdhlFrI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do VIMEO</h1>
+    <iframe src="https://player.vimeo.com/video/172172498" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!--p><a href="https://vimeo.com/172172498">MC-Kevin-Dama-da-Cama-V&iacute;deo-Clipe-Oficial-DJ-R7</a> from <a href="https://vimeo.com/funkhd">Funk HD</a> on <a href="https://vimeo.com">Vimeo</a>.</p-->
+</body>
+</html>
